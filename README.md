@@ -13,6 +13,18 @@ This tool is useful for traders and analysts who need to quickly obtain and form
 
 Code: [here](https://github.com/handiko/Price-Data-Downloader-and-Converter/blob/main/JupyterNotebook/Download%20Data%20From%20Yahoo%20Finance.ipynb)
 
+### How to Use
+Simply call **download_and_process_data(ticker_symbol: str, start_date: str = '2010-01-01')** with the arguments as required:
+```python
+"""
+    Downloads forex data, saves it to CSVs, and plots the closing price.
+
+    Args:
+        ticker_symbol (str): The ticker symbol for the forex pair (e.g., 'EURUSD=X').
+        start_date (str): The start date for the data download in 'YYYY-MM-DD' format.
+    """
+```
+
 ---
 
 ### Result Example (Nasdaq)
