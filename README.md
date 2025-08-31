@@ -1,2 +1,15 @@
-# Price-Data-Downloader-and-Converter
-Download and convert price data from yahoo finance into Metatrader5 daily bar format
+# Price Data Downloader and Converter
+Download and convert price data from Yahoo Finance into Metatrader 5 daily bar format
+
+### Description
+This Python script, "Forex Data Downloader and Converter," automates the process of acquiring and preparing financial data for both general analysis and specific trading platforms like MetaTrader 5 (MT5). It uses the yfinance library to download daily foreign exchange (forex) data from Yahoo Finance.
+
+After a successful download, the script performs three key actions:
+* Saves Data: It saves the raw, downloaded data into a standard CSV file for general use.
+* Formats for MT5: It restructures the data to meet the specific format requirements of the MT5 platform, including adding 'Time' and 'Spread' columns, and reorders the columns to 'Date', 'Time', 'Open', 'High', 'Low', 'Close', 'Volume', 'Spread'. This MT5-compatible data is then saved to a separate CSV file.
+* Visualizes Data: It generates and displays a time-series plot of the asset's daily closing prices using the matplotlib library, providing a visual representation of historical price movements.
+
+This tool is useful for traders and analysts who need to quickly obtain and format historical data for backtesting, technical analysis, or other quantitative tasks.
+
+---
+
