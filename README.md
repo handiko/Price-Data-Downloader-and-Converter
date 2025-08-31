@@ -13,3 +13,5 @@ This tool is useful for traders and analysts who need to quickly obtain and form
 
 ---
 
+### Result Example (Nasdaq)
+![](./NQDaily.png)
