@@ -29,3 +29,7 @@ Simply call **download_and_process_data(ticker_symbol: str, start_date: str = '2
 
 ### Result Example (Nasdaq)
 ![](./NQDaily.png)
+
+---
+
+Back to [Index](https://github.com/handiko/handiko/blob/master/README.md)
