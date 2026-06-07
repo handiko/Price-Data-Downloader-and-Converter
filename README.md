@@ -32,4 +32,4 @@ Simply call **download_and_process_data(ticker_symbol: str, start_date: str = '2
 
 ---
 
-Back to [Index](https://github.com/handiko/handiko/blob/master/README.md)
+Back to [Index](https://github.com/handiko/handiko/blob/master/Index.md)
